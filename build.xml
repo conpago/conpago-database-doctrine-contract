@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="Conpago.Database.Doctrine.Contract" default="build" basedir=".">
-	<description>Conpago.Database.Doctrine.Contract</description>
+	<description>Doctrine ORM adapter for Conpago framework.</description>
 
 	<property name="src" location="src"/>
 	<property name="lib" location="lib"/>
