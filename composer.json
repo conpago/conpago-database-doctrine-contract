@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-database-doctrine-contract",
+	"name": "conpago/conpago-database-doctrine-contract",
 	"description": "Doctrine ORM adapter for Conpago framework.",
 	"version": "0.0.1-alpha",
 	"type": "library",
@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\Database\\Doctrine\\Contract\\": "src/"
+			"Conpago\\Database\\Doctrine\\Contract\\": "src/"
 		}
 	}
 }

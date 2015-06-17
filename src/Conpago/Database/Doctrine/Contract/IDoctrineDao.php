@@ -6,10 +6,10 @@
 	 * Time: 15:30
 	 */
 
-	namespace Saigon\Conpago\Database\Doctrine\Contract;
+	namespace Conpago\Database\Doctrine\Contract;
 
 	use Doctrine\ORM\EntityManagerInterface;
-	use Saigon\Conpago\Database\Doctrine\Contract\IDoctrineConfig;
+	use Conpago\Database\Doctrine\Contract\IDoctrineConfig;
 
 	interface IDoctrineDao
 	{

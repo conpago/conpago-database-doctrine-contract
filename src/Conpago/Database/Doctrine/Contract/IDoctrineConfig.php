@@ -6,7 +6,7 @@
 	 * Time: 20:53
 	 */
 
-	namespace Saigon\Conpago\Database\Doctrine\Contract;
+	namespace Conpago\Database\Doctrine\Contract;
 
 	interface IDoctrineConfig
 	{
