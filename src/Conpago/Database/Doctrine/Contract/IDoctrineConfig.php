@@ -1,18 +1,19 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: Bartosz Gołek
-	 * Date: 2014-06-24
-	 * Time: 20:53
-	 */
+    /**
+     * Created by PhpStorm.
+     * User: Bartosz Gołek
+     * Date: 2014-06-24
+     * Time: 20:53
+     */
 
-	namespace Conpago\Database\Doctrine\Contract;
+    namespace Conpago\Database\Doctrine\Contract;
 
-	interface IDoctrineConfig
-	{
-		public function getDevMode();
+interface IDoctrineConfig
+{
 
-		public function getModelPath();
+    public function getDevMode();
 
-		public function getModelNamespace();
-	}
+    public function getModelPath();
+
+    public function getModelNamespace();
+}
