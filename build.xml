@@ -103,6 +103,6 @@
     </target>
     <target name="ci" depends="init" hidden="true">
         <phingcall target="update" />
-        <phingcall target="validate" />
+        <phingcall target="validate-ci" />
     </target>
 </project>
