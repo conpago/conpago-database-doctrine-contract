@@ -1,28 +1,39 @@
 <?php
-    /**
-     * Created by PhpStorm.
-     * User: Bartosz Gołek
-     * Date: 09.11.13
-     * Time: 15:30
-     */
+/**
+ * Created by PhpStorm.
+ * User: Bartosz Gołek
+ * Date: 09.11.13
+ * Time: 15:30
+ *
+ * @package    Conpago-Database-Doctrine-Contract
+ * @subpackage Base
+ * @author     Bartosz Gołek <bartosz.golek@gmail.com>
+ * @copyright  Copyright (c) 2015, Bartosz Gołek
+ */
 
-    namespace Conpago\Database\Doctrine\Contract;
+namespace Conpago\Database\Doctrine\Contract;
 
-    use Doctrine\ORM\EntityManagerInterface;
-    use Conpago\Database\Doctrine\Contract\IDoctrineConfig;
+use Doctrine\ORM\EntityManagerInterface;
 
+/**
+ * Provides base functionality for Doctrine2 based Dao objects.
+ */
 interface IDoctrineDao
 {
 
     /**
-     * @param $shortClassName
+     * Get full name of model class.
      *
-     * @return string
+     * @param string $shortClassName Short name of model class (without namespace).
+     *
+     * @return string Returns full name of model class (without namespace).
      */
     public function getModelClassName($shortClassName);
 
     /**
-     * @return \Doctrine\ORM\EntityManagerInterface
+     * Get Doctrine2 EntityManager.
+     *
+     * @return EntityManagerInterface Returns Doctrine2 EntityManager.
      */
     public function getEntityManager();
 }

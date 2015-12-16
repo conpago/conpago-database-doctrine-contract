@@ -1,35 +1,34 @@
 {
-	"name": "conpago/conpago-database-doctrine-contract",
-	"description": "Doctrine ORM adapter for Conpago framework.",
-	"version": "0.0.1-alpha",
-	"type": "library",
-	"license": "MIT",
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"authors": [
-		{
-			"name": "Bartosz Gołek",
-			"email": "bartosz.golek@gmail.com",
-			"homepage": "http://bartosz.golek.biz"
-		}
-	],
-	"repositories": [],
-	"require": {
-		"doctrine/orm": "*"
-	},
-	"require-dev": {
-		"conpago/conpago-dev-tools": "dev-master",
-		"pdepend/pdepend": "2.*",
-		"phpmd/phpmd": "2.*",
-		"squizlabs/php_codesniffer": "2.*",
-		"sebastian/phpcpd": "2.*",
-		"phpdocumentor/phpdocumentor": "2.*",
-		"phing/phing": "2.*",
-		"phploc/phploc": "2.*"
-	},
-	"autoload": {
-		"psr-0": {
-			"Conpago\\Database\\Doctrine\\Contract\\": "src/"
-		}
-	}
+  "name": "conpago/conpago-database-doctrine-contract",
+  "description": "Doctrine ORM adapter for Conpago framework.",
+  "version": "0.0.1-alpha",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Bartosz Gołek",
+      "email": "bartosz.golek@gmail.com",
+      "homepage": "http://bartosz.golek.biz"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "*"
+  },
+  "require-dev": {
+    "conpago/conpago-dev-tools": "dev-master",
+    "pdepend/pdepend": "2.*",
+    "phpmd/phpmd": "2.*",
+    "squizlabs/php_codesniffer": "2.*",
+    "sebastian/phpcpd": "2.*",
+    "phpdocumentor/phpdocumentor": "2.*",
+    "phing/phing": "2.*",
+    "phploc/phploc": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Conpago\\Database\\Doctrine\\Contract\\": "src/"
+    }
+  }
 }
