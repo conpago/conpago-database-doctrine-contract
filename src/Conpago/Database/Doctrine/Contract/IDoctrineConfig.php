@@ -24,19 +24,19 @@ interface IDoctrineConfig
      *
      * @return boolean Returns true if Doctrine2 works in Dev mode, otherwise false.
      */
-    public function isInDevMode();
+    public function isInDevMode(): bool;
 
     /**
      * Get path to model classes directory.
      *
      * @return string Returns path to model classes directory.
      */
-    public function getModelPath();
+    public function getModelPath(): string;
 
     /**
      * Get model classes namespace.
      *
      * @return string Returns model classes namespace.
      */
-    public function getModelNamespace();
+    public function getModelNamespace(): string;
 }

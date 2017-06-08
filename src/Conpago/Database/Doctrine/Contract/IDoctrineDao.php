@@ -28,12 +28,12 @@ interface IDoctrineDao
      *
      * @return string Returns full name of model class (without namespace).
      */
-    public function getModelClassName($shortClassName);
+    public function getModelClassName(string $shortClassName): string;
 
     /**
      * Get Doctrine2 EntityManager.
      *
      * @return EntityManagerInterface Returns Doctrine2 EntityManager.
      */
-    public function getEntityManager();
+    public function getEntityManager(): EntityManagerInterface;
 }
